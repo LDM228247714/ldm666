@@ -50,8 +50,8 @@ keyword-filter-type = false
 [Proxy Group]
 # > 策略组
 🌐 全球直连 = select, DIRECT
-✈️ 节点选择 = select, 🌐 全球直连
-🚀 自动选择 = select, ✈️ 节点选择, 🌐 全球直连
+✈️ 节点选择 = select, PROXY, 🌐 全球直连
+🚀 自动选择 = select, 🌐 全球直连, ✈️ 节点选择
 📱 国内常用 = select, 🌐 全球直连
 📲 国外常用 = select, ✈️ 节点选择
 Ⓜ️ 微软服务 = select, 🌐 全球直连, ✈️ 节点选择
